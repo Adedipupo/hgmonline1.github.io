@@ -1,0 +1,68 @@
+body {
+  font: 100  15px Lato, Helvetica;
+  line-height: 1.1;
+  background-color: #fff;
+  color: black;
+}
+
+#logo {
+  margin-top: -12px;
+}
+/* navigation */
+nav {
+  background-color:   #008080;
+}
+.navbar {
+  margin-top: 0;
+  border: 0;
+  font-size: 15px !important;
+  line-height: 1.3 !important;
+  letter-spacing: 3px;
+  border-radius:0;
+  font-family: Montserrat, sans-serif, Helvetica;
+}
+.navbar li a, .navbar .navbar-brand {
+  color:#fff   !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color:  #008080 !important;
+  
+}
+.navbar-toggle { 
+  color: yellow !important;
+}
+/* Container-fluid */
+/*.container-fluid {*/
+  /*margin-top: 60px;*/
+}
+/* panel */
+
+.panel-heading {
+  background-color: #008080;
+  color: #fff; 
+  font-size: 20px;
+ 
+}
+.panel-body{
+  line-height: 1.5;
+  background-color: white;
+  border: 1px solid;
+  border-color: #008080;
+  border-radius: 0px 0px 5px 5px;
+
+}
+form {
+  margin-top: 5px;
+}
+#pass {
+  margin-top: 4px;
+}
+#login {
+  margin-left: 3px;
+  margin-top: 4px;
+}
+.btn-sm {
+  background-color: #008080;
+  color: #fff;
+  font-size: 20px;
+}

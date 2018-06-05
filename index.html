@@ -1,0 +1,310 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="css/style.css">   
+		<title>HGMworld | welcome</title>
+
+		<!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<meta name="keywords" content="hgmonline,hgmworld,hgmglobal,hgmafrica,hgmnigeria,hgmeducation,hgmagriculture,hgmmedia,hgmICT,hgmstreetcodes," />
+	    <meta name="description" content="hgmonline,hgmworld,hgmglobal,hgmafrica,hgmnigeria">
+	    <meta http-equiv="refresh" content="" />
+	    <meta name="author" content="ICT@Hgm">
+	</head>
+		<body>
+			  	<header>
+				<!-- Container -->
+				  	<div id="container-fluid">
+				    <!-- Header
+				        ================================================== -->
+				    	<nav class="navbar navbar-fixed-top role="navigation" style="margin-top: 0px;">
+					  		<div class="container">
+					   			<div class="navbar-header">
+					    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					    				<span class="sr-only">Toggle navigation</span>
+						      			<span class="icon-bar"></span>
+									    <span class="icon-bar"></span>
+									    <span class="icon-bar"></span>
+					    			</button>
+					            	<a class="navbar-brand" href="#"> <img src="img/hgm.jpg" id="logo" style="width: 45px; height: 45px"> </a>
+					          	</div>
+
+					          	<!-- Collect the nav links, forms, and other content for toggling -->
+					          	<div class="collapse navbar-collapse" id="myNavbar">
+					            	<ul class="nav navbar-nav navbar-right">
+						            	<li><a class="active" href="index.html"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+						              	<li><a href="education.html"><i class="glyphicon glyphicon-book"></i></i> Education</a></li>
+						              	<li><a href="agriculture.html"><i class="glyphicon glyphicon-user"></i> Agriculture</a></li>
+						              	<li><a href="product.html"><i class="glyphicon glyphicon-certificate"></i> Product</a></li>
+						              	<li><a href="contact.html"><i class="glyphicon glyphicon-phone"></i> Contact</a></li>
+						          	</ul>
+					          	</div>
+					        </div>
+				     	</nav>
+				    </div>
+			    </header>
+
+		<div class="container-fluid" style="margin-top: 60px;">
+		  	<div class="row">
+		    	<div class="col-md-9">
+		      		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		        		<!-- Indicators -->
+				        <ol class="carousel-indicators">
+					        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					        <li data-target="#myCarousel" data-slide-to="1"></li>
+					        <li data-target="#myCarousel" data-slide-to="2"></li>
+				        </ol>
+
+				        <!-- Wrapper for slides -->
+				        <div class="carousel-inner" role="listbox">
+					        <div class="item active">
+				            	<img src="img/d1.jpg" alt="library">
+				          	</div>
+
+		          			<div class="item">
+		            			<img src="img/d2.jpg" alt="smile">
+		          			</div>
+
+		          			<div class="item">
+		            			<img src="img/d4.jpg" alt="guide">
+		          			</div>
+
+
+				          	<!-- Left and right controls -->
+				          	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				            	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				            	<span class="sr-only">Previous</span>
+				          	</a>
+				          	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				            	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				            	<span class="sr-only">Next</span>
+				          	</a>
+				        </div>
+				    </div>
+				</div>
+				<br>
+
+		    	<div class="col-md-3">
+		        	<form action="action_page.php" id="two"  style="display:block; margin-top: -10px;">
+
+		        		<div class="row">
+		               		<div class="col-md-10">
+			          			<div class="input-group">
+			              			<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+			              			<input id="email" type="text" class="form-control" name="email" placeholder="Email">
+			            		</div>
+
+		            			<div class="input-group" id="pass">
+				            		<span class="input-group-addon">
+				            			<i class="glyphicon glyphicon-lock"></i>
+				            		</span>
+				            		<input id="password" type="password" class="form-control" name="password" placeholder="Password">
+				            	</div>
+		          			</div>
+		        		</div>
+		               	<div class="row" id="login">
+		               		<button class="btn btn-sm">Log In</button>
+		             		<br>
+		             		Don't have an account? <a href="#" onclick="changetosignup()">Sign-up</a>
+		               	</div>
+		            </form>
+
+		        	
+				    <form action="action_page.php" id="one" style="display:none";>
+				               	<div class="col-md-10">
+					          		<div class="input-group">
+					              		<span class="input-group-addon">
+					              			<i class="glyphicon glyphicon-user"></i>
+					              		</span>
+					              		<input id="email" type="text" 
+					              		class="form-control" name="email"
+					              		 placeholder="Email">
+					            	</div>
+
+				            		<div class="input-group" id="pass">
+						            	<span class="input-group-addon">
+						            		<i class="glyphicon glyphicon-lock"></i>
+						            	</span>
+						            	<input id="password" type="password"
+						            	 class="form-control" name="password"
+						            	  placeholder="Password">
+						            </div>
+							        
+						            <div class="input-group" id="pass">
+						            	<span class="input-group-addon">
+						            		<i class="glyphicon glyphicon-lock"></i>
+						            	</span>
+						            		<input id="confirm-password" type="confirm-password" class="form-control" name="confirm-password" placeholder="Confirm Password">
+						            </div>
+						        </div>
+				               	<div class="row" id="login">
+				               		<button class="btn btn-sm">Register</button>
+				               		
+				               		<p> Don't have an account? <a onclick="changetologin()">Sign-in</a></p>
+				             	</div>
+				    </form>
+                
+                  <br>
+				    <div class="panel">
+		           		  <div class="panel-heading">Vision & Mission</div>
+		          			<div class="panel-body">
+		              		  <ul>
+					            	<li><strong>To lead students to a commitment to Jesus Christ as Saviour and Lord.</strong>
+					            	</li><strong>To involve them in the study of biblical truth and Christian discipleship.</strong>
+					            	<li><strong>To lead them to relate academics discipline to their Christian faith.</strong>
+					            	</li><strong>To involve them in responsible church membership and denominational understanding and participation.</strong>
+					            	<li><strong>To involve them in the study and pratical participation mission for kingdom expansion.</strong></li>    
+					          </ul>
+		        			</div>
+		      			</div>
+		             		<br>
+		             		<script>
+		             			function changetosignup() {
+		             				document.getElementById("one").style.display = "block";
+		             				document.getElementById("two").style.display = "none";
+
+		             			}
+		             			function changetologin() {
+		             				document.getElementById("one").style.display = "none";
+		             				document.getElementById("two").style.display = "block";
+
+		             			}
+		             		</script>
+		     			
+			    	</div>
+		    </div>
+    
+		  <div class="row">
+		    <div class="col-sm-3 well">
+		      <div class="well">
+		        <p><a href="#">HGMworld</a></p>
+		        <img src="img/hgm.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+		      </div>
+		      <div class="well">
+		        <p><a href="#">Interests</a></p>
+		        <p>
+		          <span class="label label-default">News</span>
+		          <span class="label label-primary">HGM-tutors</span>
+		          <span class="label label-success">Labels</span>
+		          <span class="label label-info">Football</span>
+		          <span class="label label-warning">Gaming</span>
+		          <span class="label label-danger">Friends</span>
+		        </p>
+		      </div>
+		      <div class="alert alert-success fade in">
+		        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+		        <p><strong>Quick-Notice</strong></p>
+		        HGMworld is recruiting,are you ready? Find out <a href="#">when?</a>
+		      </div>
+		      <p><a href="#">Product</a></p>
+		      <p><a href="#">Services</a></p>
+		      <p><a href="#">Streetcode</a></p>
+		    </div>
+		    <div class="col-sm-7">
+		      <div class="row">
+		        <div class="col-sm-3">
+		          <div class="well">
+		           <p>Hgm Sunday</p>
+		           <img src="img/d1.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+		          </div>
+		        </div>
+		        <div class="col-sm-9">
+		          <div class="well">
+		            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+		          </div>
+		        </div>
+		      </div>
+		      <div class="row">
+		        <div class="col-sm-3">
+		          <div class="well">
+		           <p>Hgm David</p>
+		           <img src="img/d2.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+		          </div>
+		        </div>
+		        <div class="col-sm-9">
+		          <div class="well">
+		            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+		          </div>
+		        </div>
+		      </div>
+		      <div>
+		      	<p class="text-center"><span class="label label-warning">Testimonials</span></p>
+		      </div>
+		      <br>
+
+		      <div class="row">
+		        <div class="col-sm-3">
+		          <div class="well">
+		           <p>Jane</p>
+		           <img src="img/d4.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+		          </div>
+		        </div>
+		        <div class="col-sm-9">
+		          <div class="well">
+		            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+		          </div>
+		        </div>
+		      </div>
+		      <div class="row">
+		        <div class="col-sm-3">
+		          <div class="well">
+		           <p>Anja</p>
+		           <img src="img/d1.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+		          </div>
+		        </div>
+		        <div class="col-sm-9">
+		          <div class="well">
+		            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+		          </div>
+		        </div>
+		      </div>     
+		    </div>
+		    <div class="col-sm-2 well">
+		      <div class="thumbnail">
+		        <p>Upcoming Events:</p>
+		        <img src="img/d2.jpg" alt="Paris" width="400" height="300">
+		        <p><strong>Post-Utme Conference</strong></p>
+		        <p>Sat. June 9,2018</p>
+		        <p>Faculty of Arts lecture theater,room 32</p>
+		        <button class="btn btn-primary">Info</button>
+		      </div>
+		      <div class="well">
+		        <img src="img/space.png">
+		        <p>Grab your copy at the nearest bookshop to you</p>
+		      </div>
+		    </div>
+		  </div>
+	<!-- footer 
+			================================================== -->
+		<footer>
+			<div class="container-fluid text-center">
+				<h2>Social Media</h2>
+				<ul class="social-list">
+					
+				</ul>
+				<p class="copyright">
+					&copy; Copyright 2018. HGMworld. All rights reserved.
+				</p>
+			</div>
+		</footer>
+		<!-- End footer -->
+
+	</div>
+	<!-- End Container -->
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+
+
+		</body>
+	</html>	
