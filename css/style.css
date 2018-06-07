@@ -6,11 +6,13 @@ body {
 }
 
 #logo {
-  margin-top: -12px;
+  margin-top: -14.5px;
+  margin-left: -12.5px;
+  padding: 2px 2px 3px 0px;
 }
 /* navigation */
 nav {
-  background-color:   #008080;
+  background-color: #008080;
 }
 .navbar {
   margin-top: 0;
@@ -65,4 +67,59 @@ form {
   background-color: #008080;
   color: #fff;
   font-size: 20px;
+}
+
+footer {
+  background-color:  #008080;
+  padding-top: 50px;
+  text-align: center;
+}
+footer h2 {
+  color: #222222;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+footer ul.social-list {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 35px;
+}
+footer ul.social-list li {
+  display: inline-block;
+  margin: 0 4px;
+}
+footer ul.social-list li a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #4ecdc4;
+}
+footer ul.social-list li a:hover {
+  background: #ffffff;
+  color: #222222;
+}
+footer p.copyright {
+  color: #fff;
+  padding: 25px 0;
+  border-top: 1px dotted #717173;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 0;
 }
